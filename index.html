@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegance Jewelry - Luxury Designs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- No redirects or meta refresh -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Elegance Jewelry</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#featured">Featured</a></li>
+                    <li><a href="#new-arrivals">New Arrivals</a></li>
+                </ul>
+            </nav>
+            <div class="nav-icons">
+                <!-- <a href="#" class="search-icon"><i class="fas fa-search"></i></a> -->
+                <a href="#" class="cart-icon"><i class="fas fa-shopping-cart"></i><span class="cart-count">0</span></a>
+            </div>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Stunning Jewelry Collection</h2>
+                <p>Discover our exquisite pieces crafted with precision and elegance</p>
+                <a href="#featured" class="btn">Shop Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="categories-section">
+        <div class="container">
+            <br>
+            <h2 class="section-title">Explore Our Collections</h2>
+            <div id="categories-loading" class="loading-container">
+                <div class="loading-spinner"></div>
+            </div>
+            <div id="category-container" class="category-grid">
+                <!-- Category cards are loaded dynamically from script.js -->
+                <!-- Each card follows this structure: -->
+                <!-- 
+                <div class="category-card" data-category-id="1">
+                    <div class="img-container">
+                        <img src="path/to/image.jpg" alt="Category Name">
+                    </div>
+                    <h3>Category Name</h3>
+                    <a href="#" class="btn-small view-category">View All</a>
+                </div>
+                -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section id="featured" class="featured-products">
+        <div class="container">
+            <h2 class="section-title">Featured Products</h2>
+            <div class="product-grid" id="featured-products">
+                <!-- Products will be loaded here via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- New Arrivals Section -->
+    <section id="new-arrivals" class="new-arrivals">
+        <div class="container">
+            <h2 class="section-title">New Arrivals</h2>
+            <div class="product-grid" id="new-products">
+                <!-- Products will be loaded here via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"The diamond ring I purchased exceeded my expectations. The craftsmanship is exceptional and the packaging was elegant."</p>
+                    <div class="customer">
+                        <span>Sarah Johnson</span>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"I bought a necklace for my wife's birthday and she absolutely loved it. The quality is outstanding and delivery was prompt."</p>
+                    <div class="customer">
+                        <span>Michael Brown</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <!-- <section class="newsletter">
+        <div class="container">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Stay updated with our latest collections and exclusive offers</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your Email Address" required>
+                <button type="submit" class="btn">Subscribe</button>
+            </form>
+        </div>
+    </section> -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h3>Elegance Jewelry</h3>
+                    <p>Discover the finest jewelry pieces crafted for elegance and sophistication.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#featured">Shop</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Jewelry Lane, Diamond City</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@elegancejewelry.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Elegance Jewelry. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Use updated script.js file -->
+    <script src="./assets/js/script.js"></script>
+    
+    <!-- Debug refresh issue -->
+    <script>
+        // Monitor for refresh/reload events
+        let reloadCount = parseInt(sessionStorage.getItem('reloadCount') || '0');
+        reloadCount++;
+        sessionStorage.setItem('reloadCount', reloadCount);
+        console.log(`Page load count: ${reloadCount}`);
+    </script>
+</body>
+</html>

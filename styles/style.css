@@ -1,0 +1,49 @@
+/* ...existing code... */
+
+/* Collection Section Styles */
+.collection-section {
+    padding: 50px 0;
+}
+
+.collection-box {
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.collection-box img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.collection-box:hover img {
+    transform: scale(1.05);
+}
+
+.collection-info {
+    padding: 15px;
+    background: #fff;
+}
+
+.collection-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.collection-info p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.collection-info .btn {
+    padding: 6px 15px;
+    font-size: 14px;
+}
+
+/* ...existing code... */
